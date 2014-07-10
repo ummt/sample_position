@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+#outer{
+  background-color: skyblue;
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+#inner01 {
+  background-color: red;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+#inner02 {
+  background-color: green;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 50px;
+  bottom: 100px;
+}
